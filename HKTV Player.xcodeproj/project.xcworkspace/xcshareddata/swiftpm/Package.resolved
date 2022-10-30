@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "WKView",
+        "repositoryURL": "https://github.com/rebeloper/WKView",
+        "state": {
+          "branch": "main",
+          "revision": "b9314678cf946e8c02ae1dcaf4e07d6c9dd7712c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

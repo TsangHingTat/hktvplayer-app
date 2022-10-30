@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E014D0E274A0E9C00D65FA7 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E014D0D274A0E9C00D65FA7 /* RadioView.swift */; };
+		3E014D11274A0EB500D65FA7 /* Radioid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E014D10274A0EB500D65FA7 /* Radioid.swift */; };
+		3E014D14274A13CF00D65FA7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E014D13274A13CF00D65FA7 /* HomeView.swift */; };
+		3E014D17274A23A200D65FA7 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E014D16274A23A200D65FA7 /* SidebarView.swift */; };
+		3E014D1D274A276000D65FA7 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E014D1C274A276000D65FA7 /* player.swift */; };
+		3E014D20274A2DD100D65FA7 /* radioplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E014D1F274A2DD100D65FA7 /* radioplayer.swift */; };
+		3E014D2F274A551300D65FA7 /* WKView in Frameworks */ = {isa = PBXBuildFile; productRef = 3E014D2E274A551300D65FA7 /* WKView */; };
+		3E0BF5C72748D9E100ACA6C8 /* supportus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BF5C62748D9E100ACA6C8 /* supportus.swift */; };
+		3E69A02E274B60100043A7AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E69A02D274B60100043A7AA /* Preview Assets.xcassets */; };
+		3E69A038274B60100043A7AA /* HKTVPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A037274B60100043A7AA /* HKTVPlayerTests.swift */; };
+		3E69A042274B60100043A7AA /* HKTVPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A041274B60100043A7AA /* HKTVPlayerUITests.swift */; };
+		3E69A044274B60100043A7AA /* HKTVPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A043274B60100043A7AA /* HKTVPlayerUITestsLaunchTests.swift */; };
+		3E69A050274B631F0043A7AA /* HKTVPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A026274B600F0043A7AA /* HKTVPlayerApp.swift */; };
+		3E69A051274B63210043A7AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A028274B600F0043A7AA /* ContentView.swift */; };
+		3E69A053274B682F0043A7AA /* TVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A052274B682F0043A7AA /* TVView.swift */; };
+		3E69A058274B68650043A7AA /* about.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A054274B68640043A7AA /* about.swift */; };
+		3E69A059274B68650043A7AA /* tmbid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A055274B68640043A7AA /* tmbid.swift */; };
+		3E69A05A274B68650043A7AA /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A056274B68650043A7AA /* player.swift */; };
+		3E69A05B274B68650043A7AA /* supportus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69A057274B68650043A7AA /* supportus.swift */; };
+		3E6BCC132749446600044408 /* home(useless).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6BCC122749446600044408 /* home(useless).swift */; };
+		3E6BCC162749619900044408 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6BCC152749619900044408 /* StoreKit.framework */; };
+		3E9C6B0F2676876A007FCCED /* about.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C6B0E2676876A007FCCED /* about.swift */; };
+		3EB66AFD2635A0790024C13A /* tmbid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB66AFC2635A0790024C13A /* tmbid.swift */; };
+		3EB66B002635AA510024C13A /* icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB66AFF2635AA510024C13A /* icon.xcassets */; };
+		3EEF5E6C2635917E0067043F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEF5E6B2635917E0067043F /* Tests_iOS.swift */; };
+		3EEF5E792635917E0067043F /* HKTV_Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEF5E502635917D0067043F /* HKTV_Player.swift */; };
+		3EEF5E7D2635917E0067043F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EEF5E522635917D0067043F /* Assets.xcassets */; };
+		79F0528F2679C6E100EB5CCB /* TVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F0528E2679C6E100EB5CCB /* TVView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E69A034274B60100043A7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EEF5E4B2635917C0067043F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E69A023274B600F0043A7AA;
+			remoteInfo = HKTVPlayer;
+		};
+		3E69A03E274B60100043A7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EEF5E4B2635917C0067043F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E69A023274B600F0043A7AA;
+			remoteInfo = HKTVPlayer;
+		};
+		3EEF5E682635917E0067043F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EEF5E4B2635917C0067043F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EEF5E562635917D0067043F;
+			remoteInfo = "CrazyApps AppStore (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E9C6B07267682C2007FCCED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794A65B9267A4DBA002DC532 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E014D0D274A0E9C00D65FA7 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		3E014D10274A0EB500D65FA7 /* Radioid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radioid.swift; sourceTree = "<group>"; };
+		3E014D13274A13CF00D65FA7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3E014D16274A23A200D65FA7 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		3E014D1C274A276000D65FA7 /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		3E014D1F274A2DD100D65FA7 /* radioplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioplayer.swift; sourceTree = "<group>"; };
+		3E0BF5C62748D9E100ACA6C8 /* supportus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supportus.swift; sourceTree = "<group>"; };
+		3E69A024274B600F0043A7AA /* HKTVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKTVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E69A026274B600F0043A7AA /* HKTVPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTVPlayerApp.swift; sourceTree = "<group>"; };
+		3E69A028274B600F0043A7AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E69A02D274B60100043A7AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E69A033274B60100043A7AA /* HKTVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKTVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E69A037274B60100043A7AA /* HKTVPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTVPlayerTests.swift; sourceTree = "<group>"; };
+		3E69A03D274B60100043A7AA /* HKTVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKTVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E69A041274B60100043A7AA /* HKTVPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTVPlayerUITests.swift; sourceTree = "<group>"; };
+		3E69A043274B60100043A7AA /* HKTVPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTVPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E69A052274B682F0043A7AA /* TVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TVView.swift; path = Shared/TVView.swift; sourceTree = SOURCE_ROOT; };
+		3E69A054274B68640043A7AA /* about.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = about.swift; path = Shared/about.swift; sourceTree = SOURCE_ROOT; };
+		3E69A055274B68640043A7AA /* tmbid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tmbid.swift; path = Shared/tmbid.swift; sourceTree = SOURCE_ROOT; };
+		3E69A056274B68650043A7AA /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = player.swift; path = Shared/player.swift; sourceTree = SOURCE_ROOT; };
+		3E69A057274B68650043A7AA /* supportus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = supportus.swift; path = Shared/supportus.swift; sourceTree = SOURCE_ROOT; };
+		3E6BCC122749446600044408 /* home(useless).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "home(useless).swift"; sourceTree = "<group>"; };
+		3E6BCC152749619900044408 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E9C6AF8267682C1007FCCED /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3E9C6B0E2676876A007FCCED /* about.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = about.swift; sourceTree = "<group>"; };
+		3EB66AFC2635A0790024C13A /* tmbid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tmbid.swift; sourceTree = "<group>"; };
+		3EB66AFF2635AA510024C13A /* icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icon.xcassets; sourceTree = "<group>"; };
+		3EEF5E502635917D0067043F /* HKTV_Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTV_Player.swift; sourceTree = "<group>"; };
+		3EEF5E522635917D0067043F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EEF5E572635917D0067043F /* HKTV Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HKTV Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEF5E5A2635917D0067043F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EEF5E672635917E0067043F /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEF5E6B2635917E0067043F /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		3EEF5E6D2635917E0067043F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F0528E2679C6E100EB5CCB /* TVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E69A021274B600F0043A7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E69A030274B60100043A7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E69A03A274B60100043A7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEF5E542635917D0067043F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6BCC162749619900044408 /* StoreKit.framework in Frameworks */,
+				3E014D2F274A551300D65FA7 /* WKView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEF5E642635917E0067043F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E25AB0B2680A324009B0B4D /* useless */ = {
+			isa = PBXGroup;
+			children = (
+				3E6BCC122749446600044408 /* home(useless).swift */,
+			);
+			path = useless;
+			sourceTree = "<group>";
+		};
+		3E69A025274B600F0043A7AA /* HKTVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3E69A026274B600F0043A7AA /* HKTVPlayerApp.swift */,
+				3E69A028274B600F0043A7AA /* ContentView.swift */,
+				3E69A052274B682F0043A7AA /* TVView.swift */,
+				3E69A054274B68640043A7AA /* about.swift */,
+				3E69A056274B68650043A7AA /* player.swift */,
+				3E69A057274B68650043A7AA /* supportus.swift */,
+				3E69A055274B68640043A7AA /* tmbid.swift */,
+				3E69A02C274B60100043A7AA /* Preview Content */,
+			);
+			path = HKTVPlayer;
+			sourceTree = "<group>";
+		};
+		3E69A02C274B60100043A7AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E69A02D274B60100043A7AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E69A036274B60100043A7AA /* HKTVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E69A037274B60100043A7AA /* HKTVPlayerTests.swift */,
+			);
+			path = HKTVPlayerTests;
+			sourceTree = "<group>";
+		};
+		3E69A040274B60100043A7AA /* HKTVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E69A041274B60100043A7AA /* HKTVPlayerUITests.swift */,
+				3E69A043274B60100043A7AA /* HKTVPlayerUITestsLaunchTests.swift */,
+			);
+			path = HKTVPlayerUITests;
+			sourceTree = "<group>";
+		};
+		3E9C6AF5267682C1007FCCED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6BCC152749619900044408 /* StoreKit.framework */,
+				3E9C6AF8267682C1007FCCED /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EEF5E4A2635917C0067043F = {
+			isa = PBXGroup;
+			children = (
+				3EEF5E4F2635917D0067043F /* Shared */,
+				3EEF5E592635917D0067043F /* iOS */,
+				3EEF5E6A2635917E0067043F /* Tests iOS */,
+				3E69A025274B600F0043A7AA /* HKTVPlayer */,
+				3E69A036274B60100043A7AA /* HKTVPlayerTests */,
+				3E69A040274B60100043A7AA /* HKTVPlayerUITests */,
+				3E9C6AF5267682C1007FCCED /* Frameworks */,
+				3EEF5E582635917D0067043F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EEF5E4F2635917D0067043F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3EEF5E502635917D0067043F /* HKTV_Player.swift */,
+				3E014D13274A13CF00D65FA7 /* HomeView.swift */,
+				3E014D16274A23A200D65FA7 /* SidebarView.swift */,
+				79F0528E2679C6E100EB5CCB /* TVView.swift */,
+				3E014D0D274A0E9C00D65FA7 /* RadioView.swift */,
+				3E9C6B0E2676876A007FCCED /* about.swift */,
+				3E0BF5C62748D9E100ACA6C8 /* supportus.swift */,
+				3E014D10274A0EB500D65FA7 /* Radioid.swift */,
+				3EB66AFC2635A0790024C13A /* tmbid.swift */,
+				3E014D1C274A276000D65FA7 /* player.swift */,
+				3E014D1F274A2DD100D65FA7 /* radioplayer.swift */,
+				3E25AB0B2680A324009B0B4D /* useless */,
+				3EEF5E522635917D0067043F /* Assets.xcassets */,
+				3EB66AFF2635AA510024C13A /* icon.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3EEF5E582635917D0067043F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EEF5E572635917D0067043F /* HKTV Player.app */,
+				3EEF5E672635917E0067043F /* Tests iOS.xctest */,
+				3E69A024274B600F0043A7AA /* HKTVPlayer.app */,
+				3E69A033274B60100043A7AA /* HKTVPlayerTests.xctest */,
+				3E69A03D274B60100043A7AA /* HKTVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EEF5E592635917D0067043F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EEF5E5A2635917D0067043F /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3EEF5E6A2635917E0067043F /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EEF5E6B2635917E0067043F /* Tests_iOS.swift */,
+				3EEF5E6D2635917E0067043F /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E69A023274B600F0043A7AA /* HKTVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E69A045274B60110043A7AA /* Build configuration list for PBXNativeTarget "HKTVPlayer" */;
+			buildPhases = (
+				3E69A020274B600F0043A7AA /* Sources */,
+				3E69A021274B600F0043A7AA /* Frameworks */,
+				3E69A022274B600F0043A7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKTVPlayer;
+			productName = HKTVPlayer;
+			productReference = 3E69A024274B600F0043A7AA /* HKTVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E69A032274B60100043A7AA /* HKTVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E69A048274B60110043A7AA /* Build configuration list for PBXNativeTarget "HKTVPlayerTests" */;
+			buildPhases = (
+				3E69A02F274B60100043A7AA /* Sources */,
+				3E69A030274B60100043A7AA /* Frameworks */,
+				3E69A031274B60100043A7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E69A035274B60100043A7AA /* PBXTargetDependency */,
+			);
+			name = HKTVPlayerTests;
+			productName = HKTVPlayerTests;
+			productReference = 3E69A033274B60100043A7AA /* HKTVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E69A03C274B60100043A7AA /* HKTVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E69A04B274B60110043A7AA /* Build configuration list for PBXNativeTarget "HKTVPlayerUITests" */;
+			buildPhases = (
+				3E69A039274B60100043A7AA /* Sources */,
+				3E69A03A274B60100043A7AA /* Frameworks */,
+				3E69A03B274B60100043A7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E69A03F274B60100043A7AA /* PBXTargetDependency */,
+			);
+			name = HKTVPlayerUITests;
+			productName = HKTVPlayerUITests;
+			productReference = 3E69A03D274B60100043A7AA /* HKTVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3EEF5E562635917D0067043F /* HKTV Player (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EEF5E812635917E0067043F /* Build configuration list for PBXNativeTarget "HKTV Player (iOS)" */;
+			buildPhases = (
+				3EEF5E532635917D0067043F /* Sources */,
+				3EEF5E542635917D0067043F /* Frameworks */,
+				3EEF5E552635917D0067043F /* Resources */,
+				3E9C6B07267682C2007FCCED /* Embed App Extensions */,
+				794A65B9267A4DBA002DC532 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HKTV Player (iOS)";
+			packageProductDependencies = (
+				3E014D2E274A551300D65FA7 /* WKView */,
+			);
+			productName = "CrazyApps AppStore (iOS)";
+			productReference = 3EEF5E572635917D0067043F /* HKTV Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EEF5E662635917E0067043F /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EEF5E872635917E0067043F /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				3EEF5E632635917E0067043F /* Sources */,
+				3EEF5E642635917E0067043F /* Frameworks */,
+				3EEF5E652635917E0067043F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EEF5E692635917E0067043F /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 3EEF5E672635917E0067043F /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EEF5E4B2635917C0067043F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3E69A023274B600F0043A7AA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3E69A032274B60100043A7AA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3E69A023274B600F0043A7AA;
+					};
+					3E69A03C274B60100043A7AA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3E69A023274B600F0043A7AA;
+					};
+					3EEF5E562635917D0067043F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3EEF5E662635917E0067043F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3EEF5E562635917D0067043F;
+					};
+				};
+			};
+			buildConfigurationList = 3EEF5E4E2635917C0067043F /* Build configuration list for PBXProject "HKTV Player" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EEF5E4A2635917C0067043F;
+			packageReferences = (
+				3E014D2D274A551300D65FA7 /* XCRemoteSwiftPackageReference "WKView" */,
+			);
+			productRefGroup = 3EEF5E582635917D0067043F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EEF5E562635917D0067043F /* HKTV Player (iOS) */,
+				3EEF5E662635917E0067043F /* Tests iOS */,
+				3E69A023274B600F0043A7AA /* HKTVPlayer */,
+				3E69A032274B60100043A7AA /* HKTVPlayerTests */,
+				3E69A03C274B60100043A7AA /* HKTVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E69A022274B600F0043A7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E69A02E274B60100043A7AA /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E69A031274B60100043A7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E69A03B274B60100043A7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEF5E552635917D0067043F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB66B002635AA510024C13A /* icon.xcassets in Resources */,
+				3EEF5E7D2635917E0067043F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEF5E652635917E0067043F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E69A020274B600F0043A7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E69A05B274B68650043A7AA /* supportus.swift in Sources */,
+				3E69A053274B682F0043A7AA /* TVView.swift in Sources */,
+				3E69A058274B68650043A7AA /* about.swift in Sources */,
+				3E69A059274B68650043A7AA /* tmbid.swift in Sources */,
+				3E69A051274B63210043A7AA /* ContentView.swift in Sources */,
+				3E69A05A274B68650043A7AA /* player.swift in Sources */,
+				3E69A050274B631F0043A7AA /* HKTVPlayerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E69A02F274B60100043A7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E69A038274B60100043A7AA /* HKTVPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E69A039274B60100043A7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E69A044274B60100043A7AA /* HKTVPlayerUITestsLaunchTests.swift in Sources */,
+				3E69A042274B60100043A7AA /* HKTVPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEF5E532635917D0067043F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E014D11274A0EB500D65FA7 /* Radioid.swift in Sources */,
+				3E014D17274A23A200D65FA7 /* SidebarView.swift in Sources */,
+				3E014D14274A13CF00D65FA7 /* HomeView.swift in Sources */,
+				3E6BCC132749446600044408 /* home(useless).swift in Sources */,
+				3E014D20274A2DD100D65FA7 /* radioplayer.swift in Sources */,
+				3E9C6B0F2676876A007FCCED /* about.swift in Sources */,
+				3E014D1D274A276000D65FA7 /* player.swift in Sources */,
+				79F0528F2679C6E100EB5CCB /* TVView.swift in Sources */,
+				3E014D0E274A0E9C00D65FA7 /* RadioView.swift in Sources */,
+				3E0BF5C72748D9E100ACA6C8 /* supportus.swift in Sources */,
+				3EB66AFD2635A0790024C13A /* tmbid.swift in Sources */,
+				3EEF5E792635917E0067043F /* HKTV_Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEF5E632635917E0067043F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEF5E6C2635917E0067043F /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E69A035274B60100043A7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E69A023274B600F0043A7AA /* HKTVPlayer */;
+			targetProxy = 3E69A034274B60100043A7AA /* PBXContainerItemProxy */;
+		};
+		3E69A03F274B60100043A7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E69A023274B600F0043A7AA /* HKTVPlayer */;
+			targetProxy = 3E69A03E274B60100043A7AA /* PBXContainerItemProxy */;
+		};
+		3EEF5E692635917E0067043F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EEF5E562635917D0067043F /* HKTV Player (iOS) */;
+			targetProxy = 3EEF5E682635917E0067043F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E69A046274B60110043A7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"HKTVPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crazyapps.club.ch.hktvplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		3E69A047274B60110043A7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"HKTVPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crazyapps.club.ch.hktvplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E69A049274B60110043A7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crazyapps.club.ch.tvos.HKTVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HKTVPlayer.app/HKTVPlayer";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		3E69A04A274B60110043A7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crazyapps.club.ch.tvos.HKTVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HKTVPlayer.app/HKTVPlayer";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E69A04C274B60110043A7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crazyapps.club.ch.tvos.HKTVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = HKTVPlayer;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		3E69A04D274B60110043A7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crazyapps.club.ch.tvos.HKTVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = HKTVPlayer;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EEF5E7F2635917E0067043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EEF5E802635917E0067043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3EEF5E822635917E0067043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CrazyApps AppStore.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = crazyapps.club.ch.hktvplayer;
+				PRODUCT_NAME = "HKTV Player";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EEF5E832635917E0067043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CrazyApps AppStore.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = crazyapps.club.ch.hktvplayer;
+				PRODUCT_NAME = "HKTV Player";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EEF5E882635917E0067043F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "crazyapps.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CrazyApps AppStore (iOS)";
+			};
+			name = Debug;
+		};
+		3EEF5E892635917E0067043F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "crazyapps.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CrazyApps AppStore (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E69A045274B60110043A7AA /* Build configuration list for PBXNativeTarget "HKTVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E69A046274B60110043A7AA /* Debug */,
+				3E69A047274B60110043A7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E69A048274B60110043A7AA /* Build configuration list for PBXNativeTarget "HKTVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E69A049274B60110043A7AA /* Debug */,
+				3E69A04A274B60110043A7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E69A04B274B60110043A7AA /* Build configuration list for PBXNativeTarget "HKTVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E69A04C274B60110043A7AA /* Debug */,
+				3E69A04D274B60110043A7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EEF5E4E2635917C0067043F /* Build configuration list for PBXProject "HKTV Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EEF5E7F2635917E0067043F /* Debug */,
+				3EEF5E802635917E0067043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EEF5E812635917E0067043F /* Build configuration list for PBXNativeTarget "HKTV Player (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EEF5E822635917E0067043F /* Debug */,
+				3EEF5E832635917E0067043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EEF5E872635917E0067043F /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EEF5E882635917E0067043F /* Debug */,
+				3EEF5E892635917E0067043F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E014D2D274A551300D65FA7 /* XCRemoteSwiftPackageReference "WKView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/WKView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E014D2E274A551300D65FA7 /* WKView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E014D2D274A551300D65FA7 /* XCRemoteSwiftPackageReference "WKView" */;
+			productName = WKView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3EEF5E4B2635917C0067043F /* Project object */;
+}
